@@ -1,0 +1,172 @@
+
+/*defines the body details*/
+body {
+	margin:0;
+	font-size: 20px;
+	font-family: verdana;
+	color: white;
+	margin:0;
+	height:100%;
+	padding-left: 300px;
+	padding-right: 285px;
+	background-color: #CCC;
+}
+	
+/*Main container div for the page*/
+#Container
+{
+    margin: 0 ;
+    width : auto;
+	height: auto;
+	height : 100%;
+	min-height:100%;
+	
+}
+/*Class for the products*/
+product
+{
+	 padding:5px;
+	 text-align:left;
+}
+/*defines image size for products*/
+#productimage
+{
+	 display:block;
+     height:170px;
+	 width:170px;
+     float:left;
+	 border:1px solid black;
+}
+#title
+{
+     float:right;
+	 border : 1px solid black;
+}
+
+#Content
+{
+    width : auto;
+	height: auto;
+	height : 100%;
+	min-height:100%;
+	background-color: white;
+}
+/*class for main menu*/
+.Menu
+{
+    list-style:none;
+	width:100%;
+	color:white;
+	padding:0px;
+	margin:0px;
+}
+
+/*Defines menu list*/
+.Menu li a
+{
+     display:block;
+	 padding:5px;
+	 border: 2px solid #ddd;
+	 border-bottom : 1px solid #ddd;
+	 text-decoration:none;
+	 font:lem Georgia;
+	 color:white;
+}
+.Menu li a:hover
+{
+     background:grey;
+}
+
+#MenuBar
+{
+    width : 20%;
+	
+	height : 100%;
+	
+	background-color: #333;
+	opacity: 7px;
+	float: left;
+}
+
+/* Main pagesection with dynamically changing data */
+#PageSection
+{
+   width : 80%;
+   height : auto;
+   float : left;
+   font-size:15px;
+   text-align:center;
+   color: #FF0000;
+}
+
+/*defines header of the web page*/
+#Header
+{
+   height : 300px;
+   font-size: 30px;
+   color:#F00;
+   background-color: #FFF;
+   padding-top:10px;
+   padding-right:20px;
+   /*text-decoration:line-through;*/
+   text-align:right;
+   letter-spacing:5px;
+   background-image:url('images/slider.jpg');
+   background-repeat:no-repeat;
+   border: 2px solid #333;
+   
+}
+
+/*Defines footer of the web page*/
+#Footer
+{
+   clear:both;
+   height:40px;
+   background-color:#333333;
+   text-align:center;
+   padding-top:5px;
+   padding-bottom:5px;
+   font-size:14px;
+  
+}
+
+.productimage
+{
+	width:100px;
+	float:left;
+}
+
+#search
+{
+	padding:15px;
+	font-size:20px;
+	font-family:helvetica;
+	
+}
+
+#individualproduct
+{
+	float:left;
+	color:#000;
+	text-align:center;
+	width:100%;
+	padding:5px;
+	padding-bottom:20px;
+}
+.productpage
+{
+	float:left;
+	text-align:left;
+}
+/*class for individual image
+.individualproductimage
+{
+	width:200px;
+	
+}
+
+/*class for reviews*/
+.reviews
+{
+	clear:both;
+}
